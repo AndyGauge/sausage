@@ -1,0 +1,28 @@
+{{#each products}}
+<div class="row">
+  <div class="medium-6 small-12 columns">
+    <img class="thumbnail" alt="{{this.pic}}" src="http://placehold.it/650x350"></img>
+    <div class="row small-up-4">
+      {{#each this.pics}}
+      <div class="column">
+        <img class="thumbnail" alt="{{this.thumb}}" src="http://placehold.it/250x200"></img>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  <div class="medium-6 large-5 columns">
+    <h3>{{this.title}}</h3>
+    <p>{{this.description}}</p>
+    <p>$ {{this.price}}</p>
+    <p class="small">Weight: {{this.weight}} oz</p>
+    <div class="row">
+      <div class="small-3 columns">
+        <input type="text" placeholder="QTY" class="form-align-button" id="qty" />
+      </div>
+      <div class="small-9 columns">
+        <input type="submit" class="button expanded" value="Purchase" />
+      </div>
+    </div>
+  </div>
+</div>
+{{/each}} 
