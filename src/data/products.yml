@@ -1,0 +1,24 @@
+- title: Honey Mustard Sausage
+  description: This sausage has honey and mustard creating a flavor that is sweet with a kick.  Comes in package of 6.
+  price: 5.99
+  weight: 16
+  pic: image
+  pics:
+    - full: first
+      thumb: first
+    - full: second
+      thumb: second
+    - full: third
+      thumb: third
+- title: Honey Mustard Rub
+  description: Same flavor as Honey Mustard Sausage.  Great for pork and beef.  Apply to meat before grilling.
+  price: 3.99
+  weight: 1
+  pic: image
+  pics:
+    - full: first
+      thumb: first
+    - full: second
+      thumb: second
+    - full: third
+      thumb: third
