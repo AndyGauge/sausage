@@ -12,4 +12,4 @@ deploy:
   secret_access_key: "YOUR AWS SECRET KEY"
   bucket: "S3 Bucket"
   skip_cleanup: true
-  local_dir: build
+  local_dir: dist
