@@ -1,6 +1,8 @@
 Vons Sausage Shop
 -----------------
 
+![build status](https://travis-ci.org/AndyGauge/sausage.svg)
+
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
 
 Uses Zurb Foundation Zurb Template
