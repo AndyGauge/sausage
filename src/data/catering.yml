@@ -1,0 +1,11 @@
+- theme: Mexican
+  description: Mexican influeced tropical menu.
+  menu:
+    - Guacamole
+    - Shrimp Cocktail
+    - Reynosa Salad
+    - Jicama Shelled Tacos
+    - Lava Cake
+  images:
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240

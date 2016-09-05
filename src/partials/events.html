@@ -1,0 +1,37 @@
+{{#each event}}
+  <a name="{{this.slug}}">
+    <h3>{{this.title}}</h3>
+    <div class="row">
+{{#alternate @index}}
+      <div class="columns medium-3">
+        {{#each this.side_images}}
+        <div class="row columns">
+          <img src="{{this}}">
+        </div>
+        {{/each}}
+      </div>
+      <div class="columns medium-9">
+        {{#markdown}}{{this.description}}{{/markdown}}
+      </div>
+{{else}}
+      <div class="columns medium-9">
+        {{#markdown}}{{this.description}}{{/markdown}}
+      </div>
+      <div class="columns medium-3">
+        {{#each this.side_images}}
+        <div class="row columns">
+          <img src="{{this}}">
+        </div>
+        {{/each}}
+      </div>
+    </div>
+{{/alternate}}
+    </div>
+    <div class="row small-up-2 medium-up-4">
+      {{#each this.bottom_images}}
+      <div class="column">
+        <img src="{{this}}">
+      </div>
+      {{/each}}
+    </div>
+{{/each}}

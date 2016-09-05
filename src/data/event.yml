@@ -1,0 +1,28 @@
+- title: Dr. Seus Pajama Party
+  description: |
+    Raised money for awareness of stuff.  Many people were helped.  People like
+      * Bobby
+      * Jimmy
+      * Suzy
+  orbit_image: http://placehold.it/1200x350&text=Dr%20Sues
+  side_images: 
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+  bottom_images:
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+  slug: dr-seus-pajama
+- title: Beach Party 
+  description: Raised money for awareness of stuff.
+  orbit_image: http://placehold.it/1200x350&text=Beach
+  side_images: 
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+  bottom_images:
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
+  slug: beach-party

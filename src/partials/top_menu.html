@@ -13,7 +13,7 @@
       <ul class="vertical medium-horizontal menu">
       {{#each menu}}
         <li>
-          <a href="{{root}}{{this.label}}.html">
+          <a href="{{root}}{{#lowercase}}{{this.label}}{{/lowercase}}.html">
           {{#unless this.image}}
             {{this.label}}
           {{else}}

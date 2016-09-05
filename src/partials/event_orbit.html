@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="medium small-centered columns">
+    <div class="orbit" role="region" aria-label="Events Pictures" data-orbit>
+      <ul class="orbit-container">
+        <button class="orbit-previous" aria-label="previous">
+          <span class="show-for-sr">Previous Event</span>&#9664;
+        </button>
+        <button class="orbit-next" aria-label="next">
+          <span class="show-for-sr">Next Event</span>&#9654;
+        </button>
+        {{#each event}}
+        <li class="orbit-slide">
+          <a href="{{page}}#{{this.slug}}">
+            <img src="{{this.orbit_image}}">
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
