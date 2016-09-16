@@ -9,3 +9,14 @@
   images:
     - http://placehold.it/320x240
     - http://placehold.it/320x240
+- theme: Not Mexican
+  description: Everything else.
+  menu:
+    - Pot Roast
+    - Mashed Potato
+    - Green Beans
+    - Salad
+    - Cheesecake
+  images:
+    - http://placehold.it/320x240
+    - http://placehold.it/320x240
