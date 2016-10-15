@@ -7,7 +7,7 @@
     - Jicama Shelled Tacos
     - Lava Cake
   images:
-    - http://placehold.it/320x240
+    - assets/img/catering/catering-1.jpg 
     - http://placehold.it/320x240
 - theme: Not Mexican
   description: Everything else.
@@ -18,5 +18,5 @@
     - Salad
     - Cheesecake
   images:
-    - http://placehold.it/320x240
+    - assets/img/catering/catering-3.jpg
     - http://placehold.it/320x240

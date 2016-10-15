@@ -7,3 +7,9 @@
 p.small {
   font-size: .75rem;
 }
+@mixin menu-base {
+  > li > a {
+    color: #ccc;
+    margin: 15px;
+  }
+}
